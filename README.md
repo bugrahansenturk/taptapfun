@@ -14,7 +14,9 @@ In my researches I saw that Flame is highly capable of running games with not ne
 I used Firebase's FireStore, Realtime Database, Authentication and Cloud Functions systems in TapTapFun. 
 
 -I used Firestore for storing user and past game data. Because of it's highly scalability options i think it will give better performance in the future.
+
 -I used Realtime Database to store realtime games because of it's speed and performance in scale I have choosed it to run games.
+
 -I used Cloud functions for matchmaking and other functionalities.
 
 
