@@ -1,24 +1,24 @@
-# Taptapfun
-Online tapping game developed with flutter and Firebase. Every game has 2 players. Opponents should click faster than other for increasing or decreasing the Box in the middle. The faster player win the game and gain points. The game is still under development so functionalities like Leaderboard etc. is not published in the game right now.
+## Taptapfun
 
-# Why Flutter and Flame?
-Flame is a modular Flutter game engine that provides a complete set of out-of-the-way solutions for games. It takes advantage of the powerful infrastructure provided by Flutter but simplifies the code you need to build your projects.
+Taptapfun is an online tapping game developed using the Flutter and Firebase technologies. Each game consists of two players, where each opponent has to click faster than the other to increase or decrease the Box in the middle. The player who clicks faster wins the game and gains points. Currently, the game is still under development, and functionalities like Leaderboard are not published in the game.
 
-It provides you with a simple yet effective game loop implementation, and the necessary functionalities that you might need in a game. For instance; input, images, sprites, sprite sheets, animations, collision detection and a component system that we call Flame Component System (FCS for short).
+## Why Flutter and Flame?
 
-In my researches I saw that Flame is highly capable of running games with not need high perfomange. So because of Flutter's cross-platform capabilities and other benefits I wanted to give Flutter Flame a shot.
+Flame is a modular Flutter game engine that offers a complete set of out-of-the-box solutions for games. It takes advantage of the powerful infrastructure provided by Flutter but simplifies the code needed to build your projects.
 
+Flame provides a simple yet effective game loop implementation and the necessary functionalities that you might need in a game. For example, input, images, sprites, sprite sheets, animations, collision detection, and a component system that we call Flame Component System (FCS for short).
 
-# Why Firebase?
+In my research, I found that Flame is highly capable of running games that do not require high performance. Due to Flutter's cross-platform capabilities and other benefits, I wanted to give Flutter Flame a shot.
 
-I used Firebase's FireStore, Realtime Database, Authentication and Cloud Functions systems in TapTapFun. 
+## Why Firebase?
 
--I used Firestore for storing user and past game data. Because of it's highly scalability options i think it will give better performance in the future.
+I used Firebase's Firestore, Realtime Database, Authentication, and Cloud Functions systems in TapTapFun. 
 
--I used Realtime Database to store realtime games because of it's speed and performance in scale I have choosed it to run games.
+*I used Firestore for storing user and past game data because of its highly scalable options, which I think will give better performance in the future.
+*I used Realtime Database to store real-time games because of its speed and performance in scale. I chose it to run games.
+*I used Cloud Functions for matchmaking and other functionalities.
 
--I used Cloud functions for matchmaking and other functionalities.
+## Download
 
-
-# You can download TapTapFun from Google Play Store:
+You can download TapTapFun from the Google Play Store:
 https://play.google.com/store/apps/details?id=com.dumbooctopus.taptapfun
